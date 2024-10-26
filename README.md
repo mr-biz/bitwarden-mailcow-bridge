@@ -27,7 +27,7 @@ rbw sync
 # Create a .env file in the project root directory with the following content:
 ```
 LOG_FILE=path/to/your/log/file.log
-CATCHALL_PATTERN=your_catchall_pattern
+CATCHALL_PATTERN=@example.com
 LAST_CHECK_FILE=path/to/last_check_file
 PRIMARY_INBOX=your_primary_inbox@example.com
 MAILCOW_API_URL=https://your-mailcow-server.com/api/v1
