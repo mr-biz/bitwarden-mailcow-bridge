@@ -1,4 +1,4 @@
-# Bitwarden-Mailcow Bridge
+# Bitwarden-Mailcow-Bridge
 
 This project creates a bridge between Bitwarden and Mailcow, allowing you to automatically add new aliases from Bitwarden to your Mailcow server.
 
