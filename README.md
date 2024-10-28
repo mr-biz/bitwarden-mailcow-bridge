@@ -2,6 +2,29 @@
 
 This project creates a bridge between Bitwarden and Mailcow, allowing you to automatically add new aliases from Bitwarden to your Mailcow server.
 
+## Bitwarden Mailcow Bridge: Enhanced Email Alias Management
+
+The Bitwarden Mailcow Bridge is a powerful tool designed to streamline email alias management for users running their own Mailcow mail servers. This script addresses the growing trend of using catch-all email addresses while providing a more controlled and secure approach to email alias management.
+
+**Key Features and Benefits:**
+
+- **Selective Alias Management:** Instead of relying on catch-all addresses, this bridge allows you to use only the aliases you've created in Bitwarden, giving you precise control over your email communications.
+
+- **Cost-Effective Solution:** By leveraging your existing Mailcow setup, you can avoid paying subscriptions for anonymous email services, making it an economical choice for privacy-conscious users.
+
+- **Security-Focused Design:** The script is intentionally not designed for headless environments, prioritizing security in its operation.
+
+- **Enhanced Reply Functionality:** After running the script, you'll be able to reply to senders using your aliases directly from Mailcow's SOGo interface.
+
+**IMAP Integration:**
+
+To utilize this functionality with IMAP, you'll need to set up IMAP identities in SOGo:
+
+1. Navigate to Settings -> Mail -> IMAP Accounts
+2. Select the pencil icon to edit your existing IMAP account
+3. Choose "New Identity" to create the necessary IMAP identities
+
+This bridge offers a tailored solution for users who want granular control over their email aliases while maintaining the benefits of self-hosted email infrastructure.
 ## Prerequisites
 
 - A Bitwarden account
