@@ -46,7 +46,16 @@ rbw login
 rbw sync
 ```
 
-# 2. Set Environment Variables
+# 2. Clone the Bitwarden-Mailcow Bridge repository to your local machine
+```
+git clone https://github.com/mr-biz/bitwarden-mailcow-bridge.git
+Navigate to the Directory
+Change to the cloned repository's directory:
+bash
+cd bitwarden-mailcow-bridge
+```
+
+# 3. Set Environment Variables
 # Create a .env file in the project root directory with the following content:
 ```
 LOG_FILE=path/to/your/log/file.log
@@ -57,14 +66,14 @@ MAILCOW_API_URL=https://your-mailcow-server.com/api/v1
 MAILCOW_API_KEY=your_mailcow_api_key
 ```
 
-# 3. Set Up Python Environment
+# 4. Set Up Python Environment
 ```
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-# 4. Run the Script
+# 5. Run the Script
 ```
 python3 addaliases.py
 ```
