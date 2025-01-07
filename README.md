@@ -49,9 +49,6 @@ rbw sync
 # 2. Clone the Bitwarden-Mailcow Bridge repository to your local machine
 ```
 git clone https://github.com/mr-biz/bitwarden-mailcow-bridge.git
-Navigate to the Directory
-Change to the cloned repository's directory:
-bash
 cd bitwarden-mailcow-bridge
 ```
 
