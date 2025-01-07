@@ -59,7 +59,7 @@ LOG_FILE=path/to/your/log/file.log
 CATCHALL_PATTERN=@example.com
 LAST_CHECK_FILE=path/to/last_check_file
 PRIMARY_INBOX=your_primary_inbox@example.com
-MAILCOW_API_URL=https://your-mailcow-server.com/api/v1
+MAILCOW_API_URL=https://your-mailcow-server.com/api/v1/add/alias
 MAILCOW_API_KEY=your_mailcow_api_key
 ```
 
